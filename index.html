@@ -17,14 +17,66 @@
     <title>Frontend Mentor | Tip calculator app</title>
   </head>
   <body>
-    Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
-    person Total / person Reset
+    <!-- MAIN CONTAINER  -->
+    <main class="main-container">
+      <!-- TITLE h1 -->
+      <h1>splitter</h1>
+      <!-- ARTICLE -->
+      <article>
+        <!-- SECTION 1 -->
+        <section class="section-1">
+          <div class="bill">
+            <label class="bill__label" for="bill">Bill</label>
+            <input class="bill__input" id="bill" type="number" value="142" />
+          </div>
+          <p class="label-tip">Select Tip</p>
+          <div class="container-tip">
+            <button class="container-tip__button">5%</button>
+            <button class="container-tip__button">10%</button>
+            <button class="container-tip__button">15%</button>
+            <button class="container-tip__button">25%</button>
+            <button class="container-tip__button">50%</button>
+            <input type="text" value="Custom" />
+          </div>
+          <div class="number-people">
+            <label class="number-people__label" for="number_people"
+              >Number of People
+            </label>
+            <input
+              class="number-people__input"
+              id="number_people"
+              type="number"
+              value="5"
+            />
+          </div>
+        </section>
+        <!-- SECTION 2 -->
+        <section class="section-2">
+          <div class="up">
+            <div class="up__tip-amount-label">
+              <label for="">Tip Amount</label>
+              <p>/ person</p>
+            </div>
+            <input class="up__tip-amount-value" type="number" value="$4.27" />
+          </div>
+          <div class="down">
+            <div class="down__total-label">
+              <label for="">Total</label>
+              <p>/ person</p>
+            </div>
+            <input class="down__total-value" type="number" value="$32.79" />
+          </div>
+          <input class="section-2__button" type="text" value="Reset" />
+        </section>
+      </article>
+    </main>
 
-    <div class="attribution">
+    <!-- FOOTER -->
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="#" target="_blank">Pablo Belda</a>.
+    </footer>
   </body>
 </html>
