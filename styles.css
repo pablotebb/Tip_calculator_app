@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +26,7 @@ body {
   height: 718px;
   margin: 39px auto 60px;
 }
+
 .main-container__title {
   text-transform: uppercase;
   text-align: center;
@@ -33,12 +35,14 @@ body {
   letter-spacing: 7px;
   margin-bottom: 25px;
 }
+
 @media (min-width: 1300px) {
   .main-container {
     width: 970px;
     height: 475px;
     margin: 89px auto 130px;
   }
+
   .main-container__title {
     margin-bottom: 50px;
   }
@@ -51,6 +55,7 @@ article {
   border-radius: 16px;
   padding: 23px;
 }
+
 @media (min-width: 1300px) {
   article {
     display: flex;
@@ -62,6 +67,7 @@ article {
   padding-bottom: 27px;
   flex: 1;
 }
+
 @media (min-width: 1300px) {
   .section-1 {
     padding: 40px;
@@ -85,10 +91,12 @@ input[type=number] {
   flex-direction: column;
   gap: 3px;
 }
+
 .bill__label {
   color: hsl(186deg, 14%, 43%);
   font-size: 0.8em;
 }
+
 .bill__input {
   height: 39px;
   text-align: right;
@@ -101,18 +109,21 @@ input[type=number] {
   border-radius: 3px;
   caret-color: transparent;
   margin-bottom: 10px;
-  background-image: url(../images/icon-dollar.svg);
+  background-image: url(./images/icon-dollar.svg);
   background-repeat: no-repeat;
   background-position: 5px center;
 }
+
 .bill__input:hover {
   cursor: pointer;
 }
+
 .bill__input:focus {
   outline: none;
   border: 1px solid hsl(172deg, 67%, 45%);
   border-radius: 5px;
 }
+
 @media (min-width: 1300px) {
   .bill__input {
     width: 100%;
@@ -132,12 +143,14 @@ input[type=number] {
   gap: 10px;
   margin-bottom: 25px;
 }
+
 @media (min-width: 1300px) {
   .container-tip {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 }
+
 .container-tip__button {
   background-color: hsl(183deg, 100%, 15%);
   color: hsl(0deg, 0%, 100%);
@@ -148,14 +161,17 @@ input[type=number] {
   border: none;
   border-radius: 5px;
 }
+
 .container-tip__button--selected {
   background-color: hsl(172deg, 67%, 45%);
   color: rgba(0, 0, 0, 0.611);
   font-weight: 700;
 }
+
 .container-tip__button:hover {
   cursor: pointer;
 }
+
 .container-tip input {
   background-color: hsl(189deg, 41%, 97%);
   color: hsl(186deg, 14%, 43%);
@@ -165,9 +181,11 @@ input[type=number] {
   border: none;
   width: 100%;
 }
+
 .container-tip input:hover {
   cursor: pointer;
 }
+
 .container-tip input:focus {
   outline: none;
   border: 1px solid hsl(172deg, 67%, 45%);
@@ -179,10 +197,12 @@ input[type=number] {
   flex-direction: column;
   gap: 5px;
 }
+
 .number-people__label {
   font-size: 0.8em;
   color: hsl(186deg, 14%, 43%);
 }
+
 .number-people__input {
   height: 39px;
   text-align: right;
@@ -194,24 +214,28 @@ input[type=number] {
   caret-color: transparent;
   border: none;
   border-radius: 6px;
-  background-image: url(../images/icon-person.svg);
+  background-image: url(./images/icon-person.svg);
   background-repeat: no-repeat;
   background-position: 7px center;
   background-size: 4%;
 }
+
 .number-people .error1 {
   visibility: visible;
   color: #e51525;
   padding-left: 90px;
 }
+
 @media (min-width: 1300px) {
   .number-people .error1 {
     padding-left: 255px;
   }
 }
+
 .number-people .error1-bis {
   visibility: hidden;
 }
+
 .number-people .error2 {
   display: block;
   border: 1px solid #e51525;
@@ -223,6 +247,7 @@ input[type=number] {
   border-radius: 13px;
   padding: 25px 14px;
 }
+
 @media (min-width: 1300px) {
   .section-2 {
     margin: 24px 24px 24px 0;
@@ -230,6 +255,7 @@ input[type=number] {
     height: 350px;
   }
 }
+
 .section-2__button {
   margin-top: 35px;
   width: 100%;
@@ -244,10 +270,12 @@ input[type=number] {
   font-weight: 700;
   outline: none;
 }
+
 .section-2__button:hover {
   cursor: pointer;
   filter: brightness(130%);
 }
+
 @media (min-width: 1300px) {
   .section-2__button {
     margin-top: 101px;
@@ -259,17 +287,20 @@ input[type=number] {
   justify-content: space-between;
   padding-bottom: 20px;
 }
+
 .up__tip-amount-label label, .down__total-label label {
   font-size: 1em;
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
 }
+
 .up__tip-amount-label p, .down__total-label p {
   width: 79px;
   font-size: 1em;
   color: hsl(186deg, 14%, 43%);
   font-weight: 700;
 }
+
 .up__tip-amount-value, .down__total-value {
   border: none;
   font-size: 1.4em;
