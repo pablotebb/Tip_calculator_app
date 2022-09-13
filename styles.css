@@ -209,6 +209,9 @@ input[type=number] {
     padding-left: 255px;
   }
 }
+.number-people .error1-bis {
+  visibility: hidden;
+}
 .number-people .error2 {
   display: block;
   border: 1px solid #e51525;
@@ -239,6 +242,7 @@ input[type=number] {
   color: rgba(0, 0, 0, 0.611);
   font-size: 0.9em;
   font-weight: 700;
+  outline: none;
 }
 .section-2__button:hover {
   cursor: pointer;

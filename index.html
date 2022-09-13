@@ -40,14 +40,16 @@
             </button>
             <button class="container-tip__button">25%</button>
             <button class="container-tip__button">50%</button>
-            <input type="text" value="Custom" />
+            <input id="custom" type="text" placeholder="Custom" />
           </div>
           <div class="number-people">
             <label class="number-people__label" for="number_people"
-              >Number of People <span class="error1">Can't be zero</span>
+              >Number of People
+              <span id="error1">Can't be zero</span>
             </label>
             <input
-              class="number-people__input error2"
+              id="error2"
+              class="number-people__input"
               id="number_people"
               type="number"
               value="5"
@@ -70,7 +72,7 @@
             </div>
             <input class="down__total-value" type="text" value="$32.79" />
           </div>
-          <input class="section-2__button" type="text" value="Reset" />
+          <input class="section-2__button" type="button" value="Reset" />
         </section>
       </article>
     </main>
@@ -82,5 +84,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#" target="_blank">Pablo Belda</a>.
     </footer>
+    <!-- SCRIPT JS  -->
+    <script src="./js/main.js"></script>
   </body>
 </html>

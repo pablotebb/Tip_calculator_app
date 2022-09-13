@@ -188,6 +188,10 @@ input[type="number"] {
     }
   }
 
+  .error1-bis {
+    visibility: hidden;
+  }
+
   .error2 {
     display: block;
     border: 1px solid variables.$Red;
@@ -218,6 +222,7 @@ input[type="number"] {
     color: variables.$Black-light;
     font-size: 0.9em;
     font-weight: 700;
+    outline: none;
     &:hover {
       cursor: pointer;
       filter: brightness(130%);
