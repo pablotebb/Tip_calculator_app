@@ -20,30 +20,34 @@
     <!-- MAIN CONTAINER  -->
     <main class="main-container">
       <!-- TITLE h1 -->
-      <h1>splitter</h1>
+      <h1 class="main-container__title">spli<br />tter</h1>
       <!-- ARTICLE -->
       <article>
         <!-- SECTION 1 -->
         <section class="section-1">
           <div class="bill">
             <label class="bill__label" for="bill">Bill</label>
-            <input class="bill__input" id="bill" type="number" value="142" />
+            <input class="bill__input" id="bill" type="number" value="142.55" />
           </div>
-          <p class="label-tip">Select Tip</p>
+          <p class="label-tip">Select Tip %</p>
           <div class="container-tip">
             <button class="container-tip__button">5%</button>
             <button class="container-tip__button">10%</button>
-            <button class="container-tip__button">15%</button>
+            <button
+              class="container-tip__button container-tip__button--selected"
+            >
+              15%
+            </button>
             <button class="container-tip__button">25%</button>
             <button class="container-tip__button">50%</button>
             <input type="text" value="Custom" />
           </div>
           <div class="number-people">
             <label class="number-people__label" for="number_people"
-              >Number of People
+              >Number of People <span class="error1">Can't be zero</span>
             </label>
             <input
-              class="number-people__input"
+              class="number-people__input error2"
               id="number_people"
               type="number"
               value="5"
@@ -57,14 +61,14 @@
               <label for="">Tip Amount</label>
               <p>/ person</p>
             </div>
-            <input class="up__tip-amount-value" type="number" value="$4.27" />
+            <input class="up__tip-amount-value" type="text" value="$4.27" />
           </div>
           <div class="down">
             <div class="down__total-label">
               <label for="">Total</label>
               <p>/ person</p>
             </div>
-            <input class="down__total-value" type="number" value="$32.79" />
+            <input class="down__total-value" type="text" value="$32.79" />
           </div>
           <input class="section-2__button" type="text" value="Reset" />
         </section>
