@@ -9,4 +9,10 @@
 body {
   font-family: variables.$Font-family;
   background-color: variables.$Light-grayish-cyan;
+  // Vertically and horizontally centered
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

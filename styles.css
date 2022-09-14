@@ -9,12 +9,23 @@
 body {
   font-family: "Space Mono", monospace;
   background-color: hsl(185deg, 41%, 84%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 30px auto 40px;
+}
+
+@media (min-width: 1300px) {
+  .attribution {
+    margin: 100px auto 60px;
+  }
 }
 
 .attribution a {
@@ -24,7 +35,6 @@ body {
 .main-container {
   width: 375px;
   height: 718px;
-  margin: 39px auto 60px;
 }
 
 .main-container__title {
@@ -40,7 +50,6 @@ body {
   .main-container {
     width: 970px;
     height: 475px;
-    margin: 89px auto 130px;
   }
 
   .main-container__title {

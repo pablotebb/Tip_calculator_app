@@ -19,6 +19,8 @@ let tip_button = 15;
 let tip_amount_result;
 let total_result;
 
+error1.classList.add("error1-bis");
+
 button.forEach((element) => {
   element.addEventListener("click", (e) => {
     clearActiveButtons();
